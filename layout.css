@@ -1,0 +1,394 @@
+header{
+    display:flex;
+    justify-content: space-around;}
+
+    #logo{
+        width:300px}
+
+
+    .navtools{
+        display:flex;
+        gap:1em;
+        text-decoration:none;
+        color:black ;
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        
+     }  
+     #About{
+        color: #00ccb1;
+     }
+     #Career,#Departments {
+        color:#ababab ;
+     }
+    #Career:hover{
+        color:#00ccb1 ;
+     }
+     #Departments:hover{
+        color:#00ccb1 ;
+     }
+    
+   
+a{
+    text-decoration: none;list-style-type: none;
+}
+.leadsection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;margin:100px
+}
+#headerlogo{
+    
+    width:40px;}
+#headerp{   
+     color: #00b39b;
+    font-size: 2rem;
+    font-family: Work Sans, Arial, sans-serif;   
+     font-weight: 100px;
+    letter-spacing: -0.3px;
+    padding-top: 10px;
+}
+.twoparagraphs{display:flex;
+width: 100%;
+justify-content: center;
+    
+
+}
+.p1,.p2{
+    color: #747474;
+    
+    font-size:16px;margin-left:50px;width:550px;
+
+}
+
+.forsection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1.375em 1.25em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+}
+.for1{
+    background-color:#00ccb1;border:1px solid black;border-radius:10px;
+    padding:30px;
+    
+    justify-content: space-between;
+    height: 270px;
+    
+}
+    .for2{
+        background-color:#3d83df;
+        padding: 30px;
+        border-radius: 10px;
+        height: 270px;
+        
+    }
+    .for3{
+        background-color:#1b2734;
+        padding: 20px;
+        border-radius: 10px;
+        height: 300px;
+    }
+    #select1 {
+        text-decoration: underline;
+        text-transform: none;
+
+        background-color: #00ccb1;
+        border-style: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    #select2 {
+        text-decoration: underline;
+        text-transform: none;
+        background-color:#3d83df ;
+        border-style: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    #select3 {
+        text-decoration: underline;
+        text-transform: none;
+        background-color:#1b2734;
+        border-style: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    #select4 {
+        text-decoration: underline;
+        text-transform: none;
+        background-color:#1b2734;
+        border-style: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    
+
+     #section3 {
+        display: grid;
+        grid-template-columns: 200px  400px;
+        justify-content: space-around;
+        padding-left: 50px;
+        
+        }
+        .section3title {
+            width: 600px;
+            height: 200px;
+            color: #00ccb1;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-right: 200px;
+            position: relative;
+            bottom: 10px;
+            
+            
+        }
+        .section3logos{
+            
+            padding-bottom: 40%;
+            padding-right: 20%;
+        }
+ 
+        .section4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            background-color: #d0faf4;
+            padding-left: 50px;
+}
+
+       .section4header h2 {
+        color: #00ccb1;
+        font-size: 25px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-family: 'Times New Roman', Times, serif;
+       }
+       .section4fourparts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        text-align: center;
+        color: #00ccb1;
+
+       
+
+       }
+       .first2 p{
+        color: #747474;
+       }
+       .second2 p{
+        color: #747474;
+       }
+        
+
+      
+        
+       
+       #patients {
+        background-color: white;
+        
+        height: 200px;
+        position: relative;
+        bottom:  5px;
+        top: 40px;
+
+        
+
+       }
+       #leader {
+        background-color: white;
+        position: relative;
+        top: 30px;
+    
+       
+        height: 300px;
+       }
+       #leader p{
+        background-color: white;
+        font-size: 15px;
+        width: 220px;
+        height: 100px;
+        position: relative;
+        top: 40px;
+        
+      
+       }
+
+       #doctors {
+        background-color: white;
+        position: relative;
+        height: 200px;
+        left: 80px;
+        top: 80px;
+       }
+       #appointments{
+        background-color: white;
+        height: 250px;
+        width: 200px;
+        position: relative;
+        left: 80px;
+        font-size: 20px;
+       }
+        .section4header p {
+            color: #747474;
+            font-size: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        .section4fourparts {
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 250px;
+            margin-left: 180px;
+            margin-right: 40px;
+        }
+
+
+
+
+
+        #section5 div{
+            position: relative;
+            left: 400px;
+            display: flex;
+            flex-direction:column ;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            width: 500px;
+            text-align: center;
+            
+            
+            
+            
+        }
+        #section5 h3{
+            text-align: center;
+        }
+        #section5 p{
+            text-align: center;
+        }
+        .titre5 {
+            text-align: center;
+            color: #00ccb1;
+            font-size: 30px;
+            font-weight: 100px;
+            font-family: work 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        .text5 {
+            text-align:center;
+            color: #747474;
+        }
+        .section6{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .country {
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content: center;
+            gap: 20px;
+        
+        }
+        
+        .section6 .buttons{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+           
+        }
+
+        .section6 button{
+           background-color:  #3d83df;
+            border: none;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            font-size: 12px;
+           cursor: pointer;
+
+        }
+        .section7{
+            position: relative;
+            left: 400px;
+            display: flex;
+            flex-direction:column ;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 500px;
+            text-align: center;
+            margin-top: 100px;
+            
+
+        }
+        .section7 h1{
+
+            font-size: 2.15em;
+            color: #333;
+            letter-spacing: -0.3px;
+            font-weight: 300;
+           }
+        .section7 button{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:  #3d83df;
+            border: none;
+            padding: 10px;
+            color: white;
+            border-radius: 4px;
+            font-size: 12px;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+        }
+
+        .end {
+            color: #ababab ;
+            text-align: center;
+            margin-top: 100px;
+            font-size: 12px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .end a{
+            color: #337ab7;
+            text-decoration: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+        
+    
